@@ -598,7 +598,7 @@ class TradingEconomics:
 
         # Now sparsify:
         self.master_te_data_wide_sparse_lower = self.sparsify(tall = self.master_te_data_tall, wide = self.master_te_data_wide)
-        sparse_wide_filename = self.master_path + '/master_te_data_wide_sparse_lower_' + self.today_date + '_abbreviated.csv'
+        sparse_wide_filename = self.other_path + '/master_te_data_wide_sparse_lower_' + self.today_date + '_abbreviated.csv'
         # self.master_te_data_wide_sparse_lower = pd.read_csv(sparse_wide_filename, index_col = 0)
         self.master_te_data_wide_sparse_lower.to_csv(sparse_wide_filename)
 
