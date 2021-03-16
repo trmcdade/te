@@ -228,7 +228,7 @@ class TradingEconomics:
         # Here is some code to check the number of characters in a chunk of 
         # your country list:
         #
-        # countries = te.countries
+        # countries = te_object.countries
         # chunked = [x for x in chunks(countries, 25)]
         # len_per_chunk = [sum([(len(a) + 1) for a in x]) for x in chunked]
         # sum([len(a) for a in countries])
